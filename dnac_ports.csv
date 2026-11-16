@@ -1,0 +1,13 @@
+switch,port,mode,vlan_or_connection,status
+AS1,Gi1/0/1,Access,101,Up
+AS1,Gi1/0/2,Access,101,Up
+AS1,Gi1/0/3,Access,102,Up
+AS1,Gi1/0/4,Access,102,Up
+AS1,Gi1/0/24,Trunk,,Up
+AS2,Gi1/0/1,Access,103,Up
+AS2,Gi1/0/2,Access,103,Up
+AS2,Gi1/0/3,Access,104,Up
+AS2,Gi1/0/4,Access,104,Up
+AS2,Gi1/0/24,Trunk,,Up
+CORE,Gi1/0/1,Trunk,AS1,Up
+CORE,Gi1/0/2,Trunk,AS2,Up

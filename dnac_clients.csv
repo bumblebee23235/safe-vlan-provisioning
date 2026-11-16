@@ -1,0 +1,9 @@
+mac_address,ip_address,switch,port,vlan_id,connection_status
+02:AA:01:01:01:01,10.101.0.11,AS1,Gi1/0/1,101,Connected
+02:AA:01:01:01:02,10.101.0.12,AS1,Gi1/0/2,101,Connected
+02:AA:01:01:01:03,10.102.0.13,AS1,Gi1/0/3,102,Connected
+02:AA:01:01:01:04,10.102.0.14,AS1,Gi1/0/4,102,Connected
+02:AA:02:01:01:01,10.103.0.15,AS2,Gi1/0/1,103,Connected
+02:AA:02:01:01:02,10.103.0.16,AS2,Gi1/0/2,103,Connected
+02:AA:02:01:01:03,10.104.0.17,AS2,Gi1/0/3,104,Connected
+02:AA:02:01:01:04,10.104.0.18,AS2,Gi1/0/4,104,Connected

@@ -1,0 +1,5 @@
+policy_id,policy_name,vlan_id,vlan_name
+POL-101,Corporate-101,101,Corporate
+POL-102,Engineering-102,102,Engineering
+POL-103,Guest-103,103,Guest
+POL-104,Finance-104,104,Finance

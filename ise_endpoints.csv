@@ -1,0 +1,9 @@
+mac_address,status,policy_name,vlan_id
+02:AA:01:01:01:01,Registered,Corporate-101,101
+02:AA:01:01:01:02,Registered,Corporate-101,101
+02:AA:01:01:01:03,Registered,Engineering-102,102
+02:AA:01:01:01:04,Registered,Engineering-102,102
+02:AA:02:01:01:01,Registered,Guest-103,103
+02:AA:02:01:01:02,Registered,Guest-103,103
+02:AA:02:01:01:03,Registered,Finance-104,104
+02:AA:02:01:01:04,Registered,Finance-104,104

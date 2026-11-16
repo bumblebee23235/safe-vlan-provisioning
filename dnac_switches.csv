@@ -1,0 +1,4 @@
+switch,management_ip,site,role,status
+CORE,10.0.0.1,Main-Site,Core,Active
+AS1,10.0.0.11,Main-Site,Access,Active
+AS2,10.0.0.12,Main-Site,Access,Active
