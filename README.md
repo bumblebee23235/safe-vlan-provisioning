@@ -27,10 +27,11 @@ Failure path: `Failure → Rollback → Verify restoration`
 - `test_automation.py` — 14 predefined safety and failure-path checks.
 - `benchmark.py` — repeated local execution-time benchmark (10 runs).
 - `rollback_benchmark.py` — 20 simulated rollback trials: 10 deployment failures and 10 verification failures.
-- `scalability_benchmark.py` — generated workloads of 10, 50, 100, 500, and 1,000 requests, with three repetitions each.
+- `scalability_benchmark.py` — generates synthetic workloads of 10, 50, 100, 500, and 1,000 requests, with three repetitions each, and writes results to `scalability_results.csv`.
 - `ise_policies.csv`, `ise_endpoints.csv`, `dnac_clients.csv`, `dnac_switches.csv`, `dnac_ports.csv` — fictional input datasets.
-- `results/scalability_results.csv` — latest scalability output generated during repository preparation.
-- `docs/research-paper.pdf` — accompanying project paper describing the design, experiments, results, limitations, and future work.
+- `scalability_results.csv` — latest scalability benchmark results.
+- `research-paper.pdf` — accompanying project paper.
+
 
 The CSV files are kept beside `main.py` because the current application resolves them relative to its own location.
 
@@ -44,6 +45,15 @@ Install dependency:
 ```bash
 python -m pip install -r requirements.txt
 ```
+
+## Usage
+
+1. Clone or download this repository.
+2. Install the required dependency.
+3. Run the interactive simulation.
+4. Enter a valid endpoint MAC address and target VLAN.
+5. Review the proposed change and approve or reject it.
+6. Run the test and benchmark scripts to evaluate the workflow.
 
 ## Run the interactive simulation
 
